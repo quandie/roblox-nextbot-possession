@@ -6,6 +6,8 @@ if yes want - there my project for you which you can download and use as example
 # includes
 - ServerScriptService SERVER scripts
 - LOCAL scripts for gui and etc
+- ReplicatedStorage remote/bindable events
+- MODULE scripts for extra features
 - an already configured example of a nextbot with which the possession system will work
 - testing RBXL file if you want to get original copy of my system
 
