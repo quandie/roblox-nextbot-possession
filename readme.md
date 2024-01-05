@@ -15,6 +15,9 @@ if yes want - there my project for you which you can download and use as example
 - brains
 - at least basic lua and luau knowledge
 
+# installation
+- download entire rbxl file and open it using roblox studio
+
 # also
 - please DO NOT upload my possession system anywhere without crediting me (thanks you)
 - if you experienced some bugs, please contact me in discord: real_quandie or open an issue
