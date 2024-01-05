@@ -2,7 +2,7 @@
 are you ever player nico's nextbots on roblox?
 if so, will you ever wanted to make own nextbot possession?
 if yes want - there my project for you which you can download and use as example!
-(warning: this may not be working properly! if you need so you can rescript it as you needed)
+(warning: this may not be working properly! if you need so you can rescript it as you needed and taking damage from possessed bots is still W.I.P!!)
 
 # includes
 - ServerScriptService SERVER scripts
