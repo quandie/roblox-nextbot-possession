@@ -12,10 +12,12 @@ if yes want - there my project for you which you can download and use as example
 - an already configured example of a nextbot with which the possession system will work
 - testing RBXL file if you want to get original copy of my system
 - configured screengui (may not be compatible with your screen resolution)
-  - to fix that simple increase frames size
+  - to fix that simply increase frames size
 
 # requirements
 - brains
+- roblox studio
+- hands
 - at least basic lua and luau knowledge
 
 # installation
