@@ -36,21 +36,11 @@ workspace.DescendantAdded:Connect(function(op)
 end)
 
 
--- from quandie: thx zyne
-
--- the possessor changes parents when it gets equipped
--- unequipped = player backpack
--- equipped = player character
--- from zyne: note ^^
 replicatedStorage.possession.invis.OnServerEvent:Connect(function(lp, bool : boolean)
 	local lpc = lp.Character
 	
-	--[[local posTool = lp.Backpack:FindFirstChild("possessor") or lpc:FindFirstChild("possessor")
-	posTool:Destroy()
-	print("invis tiem") -- mis-spell on purpose (idk for funnyes)]] -- commented due bugs
-	
 	local humanoid = lpc:FindFirstChild("Humanoid")
-	--humanoid.Name = "bot" -- also commented due bugs
+	
 	
 	local Head
 	local face
@@ -61,15 +51,15 @@ replicatedStorage.possession.invis.OnServerEvent:Connect(function(lp, bool : boo
 	end
 	
 	if bool then
-		--[[local destroytool = lp.Backpack:FindFirstChild("possessor") or lpc:FindFirstChild("possessor")
-		destroytool:Destroy()]] -- commented for testing
+		local destroytool = lp.Backpack:FindFirstChild("possessor") or lpc:FindFirstChild("possessor")
+		destroytool:Destroy()
 		
-		local newhitbox = game.ReplicatedStorage.possession.posession_hitbox:Clone() -- cloning the hitbox
-		newhitbox.Anchored = false -- the original is anchored and the clone is unanchored so the original doesnt fall incase
+		local newhitbox = game.ReplicatedStorage.possession.posession_hitbox:Clone()
+		newhitbox.Anchored = false
 		newhitbox.Parent = player.Character
 		newhitbox.Name = "hitbox"
 
-		local newWeld = Instance.new("WeldConstraint") -- creating new weld
+		local newWeld = Instance.new("WeldConstraint") 
 		newWeld.Parent = newhitbox
 		newWeld.Name = "hitboxweld"
 		newWeld.Part0 = newhitbox
@@ -122,11 +112,4 @@ replicatedStorage.possession.invis.OnServerEvent:Connect(function(lp, bool : boo
 
 end)
 
---possessball.Touched:Connect(function(hit)
---	if hit.Parent:FindFirstChild("bot") then
---		possessball:Remove()
---		print("bros touched")
---		game.ReplicatedStorage.quandie_events.possession.bot_touched:FireClient(player)
---	end
---end)
 
