@@ -29,8 +29,8 @@ if yes want - there my project for you which you can download and use as example
   - (module) means MODULE script
   - (server) means SERVER script
   - (client) means CLIENT script
-  - make sure server scripts inside ServerScriptService
-  - make sure module scripts inside ReplicatedStorage possession folder
+  - make sure server scripts inside /ServerScriptService/possession folder
+  - make sure module scripts inside /ReplicatedStorage/possession folder
 
 # also
 - please DO NOT upload my possession system anywhere without crediting me (thanks you)
