@@ -30,7 +30,7 @@ if yes want - there my project for you which you can download and use as example
   - (server) means SERVER script
   - (client) means CLIENT script
   - make sure server scripts inside /ServerScriptService/possession folder
-  - make sure module scripts inside /ReplicatedStorage/possession folder
+  - make sure module scripts and remote/bindable events inside /ReplicatedStorage/possession folder
   - make sure client scripts inside /StarterGui/possession screengui
 
 # also
