@@ -34,7 +34,6 @@ if yes want - there my project for you which you can download and use as example
   - make sure client scripts inside /StarterGui/possession screengui
 
 # also
-- please DO NOT upload my possession system anywhere without crediting me (thanks you)
+- please DO NOT upload my possession system anywhere without crediting me (thank you)
 - if you experienced some bugs, please contact me in discord: **real_quandie** or open an issue
-- feel free to fork it on github
 - thanks for using!
