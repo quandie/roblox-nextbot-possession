@@ -15,7 +15,7 @@ if yes want - there my project for you which you can download and use as example
   - to fix that simply increase frames size
 
 # requirements
-- brains (please)
+- brains ~~(please) (i beg you)~~
 - roblox studio
 - hands
 - at least basic lua and luau knowledge
