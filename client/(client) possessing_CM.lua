@@ -25,46 +25,22 @@ pe.OnClientEvent:Connect(function(botnameself:string)
 		print("get fire")
 		script.Parent.toggleui:Fire()
 		script.Parent.launched.Value = false
-
+		
 		print("bot founded, possessing")
 		rs.possession.invis:FireServer(true)
 
 		character:WaitForChild("HumanoidRootPart"):WaitForChild("ParticleEmitter").Enabled = false
 		character:WaitForChild("HumanoidRootPart"):WaitForChild("icon").Enabled = false
 		script.Parent.mainframe.message.Text = "successfully POSSESSED "..botname.Value
+		script.Parent.mainframe.message.Visible = true
 		script.Parent.mainframe.message:TweenPosition(UDim2.new(0.72, 0,0.932, 0))
 		task.wait(3)
 		script.Parent.mainframe.message:TweenPosition(UDim2.new(1.05, 0,0.932, 0))
+		script.Parent.mainframe.message.Visible = false
 		
 	end
 		
 end)
-
---[[for _, v in pairs(character:GetChildren()) do
-	if v:IsA("Part") then
-		v.Touched:Connect(function(hit)
-			if game.Players:GetPlayerFromCharacter(hit.Parent) then
-				print("i touched other player")
-				
-				if lp.Character:WaitForChild("possessing").Value then
-					wait(1)
-					local player_2 = game.Players:GetPlayerFromCharacter(hit.Parent)
-					print("get 2 player")
-					if player_2.Character:WaitForChild("Humanoid").Health >= 0 and not cooldown then
-						cooldown = true
-						player_2.Character:WaitForChild("Humanoid"):TakeDamage(100 - player_2.Character:WaitForChild("Humanoid").Health)
-					else
-						print("bro dead :skull:")
-					end
-					print("player killed! +5 seconds!")
-					script.Parent.mainframe.timer.time.Value += 5
-					wait(1)
-					cooldown = false
-				end
-			end
-		end)
-	end
-end]] -- PLEASE DONT UNCOMMENT IT IF YOU DONT WANNA BROKE THIS SCRIPT
 
 
 -- q to possession pathfind
