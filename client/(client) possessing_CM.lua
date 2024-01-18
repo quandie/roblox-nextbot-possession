@@ -20,8 +20,8 @@ end)
 pe.OnClientEvent:Connect(function(botnameself:string)
 	if script.Parent.launched.Value == true --[[and not character:WaitForChild("possessedstate").Value]] then 
 		--print("successfully POSSESSED "..botnameself)
-		script.Parent.mainframe.timer.time.Value = 10
-		--game.Players.LocalPlayer.CameraMode = Enum.CameraMode.LockFirstPerson
+		script.Parent.mainframe.timer.time.Value = 60
+		game.Players.LocalPlayer.CameraMode = Enum.CameraMode.LockFirstPerson
 		print("get fire")
 		script.Parent.toggleui:Fire()
 		script.Parent.launched.Value = false
@@ -31,11 +31,13 @@ pe.OnClientEvent:Connect(function(botnameself:string)
 
 		character:WaitForChild("HumanoidRootPart"):WaitForChild("ParticleEmitter").Enabled = false
 		character:WaitForChild("HumanoidRootPart"):WaitForChild("icon").Enabled = false
+		script.Parent.mainframe.screen.overlay.anim.Enabled = true
 		script.Parent.mainframe.message.Text = "successfully POSSESSED "..botname.Value
 		script.Parent.mainframe.message.Visible = true
 		script.Parent.mainframe.message:TweenPosition(UDim2.new(0.72, 0,0.932, 0))
 		task.wait(3)
 		script.Parent.mainframe.message:TweenPosition(UDim2.new(1.05, 0,0.932, 0))
+		task.wait(3)
 		script.Parent.mainframe.message.Visible = false
 		
 	end
