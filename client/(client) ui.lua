@@ -10,7 +10,7 @@ local uis = game:GetService("UserInputService")
 local turboenabled = false
 
 script.Parent.toggleui.Event:Connect(function()
-	--killcounter:TweenPosition(UDim2.new(0.398, 0,0.02, 0)) -- temporary disabled, DO NOT touch it.
+	killcounter:TweenPosition(UDim2.new(0.398, 0,0.02, 0))
 	timerframe:TweenPosition(UDim2.new(0.377, 0,0.889, 0))
 	timerframe.botimage.Image = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").icon.ImageLabel.Image
 	vhs.Visible = true
