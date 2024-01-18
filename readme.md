@@ -1,8 +1,8 @@
-# roblox nextbot possession (wip)
+# roblox nextbot possession
 are you ever played "nico's nextbots" on roblox?
 if so, will you ever wanted to make own nextbot possession?
 if yes want - there my project for you which you can download and use as example!
-(warning: this may not be working properly! if you need so you can rescript it as you needed and taking damage from possessed bots is still W.I.P!!)
+(warning: this may not be working properly!)
 
 # includes
 - ServerScriptService SERVER scripts
