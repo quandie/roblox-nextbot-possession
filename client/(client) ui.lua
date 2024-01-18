@@ -29,7 +29,7 @@ uis.InputBegan:Connect(function(key)
 			timerframe:TweenPosition(UDim2.new(0.377, 0,0.9, 0))
 			turboenabled = false
 			timerframe.waittime.Value = 1
-			ch:FindFirstChild("Humanoid").WalkSpeed = script.Parent.botspeed.Value`
+			ch:FindFirstChild("Humanoid").WalkSpeed = script.Parent.botspeed.Value
 		end
 	end
 end)
