@@ -23,8 +23,8 @@ if yes want - there my project for you which you can download and use as example
 
 # installation
 ## easy way:
-- download entire rbxl file and open it using roblox studio
-## hard way (OBSOLETE):
+- download /misc/possession v[ver] and open it using roblox studio
+## hard way (OBSOLETE, DO NOT USE):
 - ~~download all scripts and rbxm files~~
 - ~~extract them in roblox studio correctly~~
   - ~~(module) means MODULE script~~
