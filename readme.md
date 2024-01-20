@@ -13,6 +13,7 @@ if yes want - there my project for you which you can download and use as example
 - testing RBXL file if you want to get original copy of my system
 - configured screengui (may not be compatible with your screen resolution)
   - to fix that simply increase frames size
+- both r6 and r15 support
 
 # requirements
 - brains ~~(please) (i beg you)~~
@@ -35,6 +36,5 @@ if yes want - there my project for you which you can download and use as example
 
 # also
 - please DO NOT upload my possession system anywhere without crediting me (thank you)
-- R6 ONLY!!!!!!! (ill add r15 support in future)
 - if you experienced some bugs, please contact me in discord: **real_quandie** or open an issue
 - thanks for using!
