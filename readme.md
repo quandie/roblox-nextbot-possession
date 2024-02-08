@@ -29,3 +29,6 @@ if yes want - there my project for you which you can download and use as example
 - please DO NOT upload my possession system anywhere without crediting me (thank you)
 - if you experienced some bugs, please contact me in discord: **real_quandie** or open an issue
 - thanks for using!
+
+# troubleshooting:
+- check troubleshooting.md file
