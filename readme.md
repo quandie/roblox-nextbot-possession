@@ -13,7 +13,12 @@ if yes want - there my project for you which you can download and use as example
 - testing RBXL file if you want to get original copy of my system
 - configured screengui (may not be compatible with your screen resolution)
   - to fix that simply increase frames size
-- both r6 and r15 (and probably rhtro) support
+
+| rig support| true/false/not sure|
+| ---------- | ----------|
+| R15        | TRUE      |
+| R6         | TRUE      |
+| RHTRO      | NOT SURE  |
 
 # requirements
 - brains ~~(please) (i beg you)~~
