@@ -2,7 +2,9 @@
 are you ever played "nico's nextbots" on roblox?
 if so, will you ever wanted to make own nextbot possession?
 if yes want - there my project for you which you can download and use as example!
-(warning: this may not be working properly!)
+
+> [!WARNING]
+> this may not work not as planned/expected. be aware of bugs, because im doing this by myself
 
 # includes
 - ServerScriptService SERVER scripts
@@ -29,6 +31,8 @@ if yes want - there my project for you which you can download and use as example
 # installation
 ## easy way:
 - download /misc/possession v[ver] rbxl file, and open it using roblox studio
+> [!NOTE]
+> please do not delete/rename scripts or remote events
 
 # also
 - please DO NOT upload my possession system anywhere without crediting me (thank you)
