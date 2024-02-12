@@ -32,7 +32,7 @@ if yes want - there my project for you which you can download and use as example
 ## easy way:
 - download /misc/possession v[ver] rbxl file, and open it using roblox studio
 > [!NOTE]
-> please do not delete/rename scripts or remote events
+> please do not delete/rename scripts, folders, values or remote events
 
 # also
 - please DO NOT upload my possession system anywhere without crediting me (thank you)
