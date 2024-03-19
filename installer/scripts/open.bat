@@ -1,1 +1,0 @@
-start nextbot_possession.zip "./nextbot_possession.zip"
