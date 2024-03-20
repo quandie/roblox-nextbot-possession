@@ -34,11 +34,6 @@ if yes want - there my project for you which you can download and use as example
 > [!NOTE]
 > please do not delete/rename scripts, folders, values or remote events
 
-## very easy way:
-- download installer: [https://github.com/quandie/roblox-nextbot-possession-installer](https://github.com/quandie/roblox-nextbot-possession/tree/main/installer/scripts)
-- run it
-- locate to misc/possession v[ver] rbxl file, and open it using roblox studio
-
 # also
 - please DO NOT upload my possession system anywhere without crediting me (thank you)
 - if you experienced some bugs, please contact me in discord: **real_quandie** or open an issue
